@@ -1,0 +1,72 @@
+IBM HR Analytics Employee Attrition Dashboard
+Overview
+This project analyzes employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset.
+It demonstrates how to use Python, SQL, and data visualization libraries to generate actionable business insights and a multi-panel dashboard.
+
+Features
+SQL-powered analytics using SQLite and pandas
+
+Interactive, multi-panel dashboard with matplotlib and seaborn
+
+Key HR insights: attrition by department and job role, income and age analysis, and more
+
+Easy to extend for further analysis or integration with BI tools
+
+Dataset
+Source: Kaggle - IBM HR Analytics Employee Attrition & Performance
+
+File: WA_Fn-UseC_-HR-Employee-Attrition.csv
+
+Setup Instructions
+Clone or download this repository.
+
+Download the dataset from Kaggle and place WA_Fn-UseC_-HR-Employee-Attrition.csv in your project directory.
+
+Install required Python packages (preferably in a virtual environment):
+
+bash
+pip install pandas matplotlib seaborn
+(No need to install sqlite3; it’s included with Python.)
+
+Run the dashboard script in Jupyter Notebook or as a Python script.
+
+Usage
+Open dashboard.ipynb (or your Python script) in Jupyter or VS Code.
+
+Run all cells/lines.
+The dashboard will be generated with key charts:
+
+Attrition count
+
+Attrition rate by department
+
+Average monthly income by attrition
+
+Attrition rate by job role
+
+Average age by attrition
+
+Example Output
+![Dashboard Example](dashboard_example.pngboard output. Your results may vary based on data and styling.*
+
+Project Structure
+text
+├── dashboard.ipynb              # Jupyter notebook with dashboard code
+├── dashboard.py                 # (Optional) Python script version
+├── WA_Fn-UseC_-HR-Employee-Attrition.csv  # Dataset (not included, download from Kaggle)
+├── README.md
+Customization
+Add more SQL queries and plots for deeper insights (e.g., attrition by gender, education, overtime).
+
+Connect your SQLite database to BI tools like Tableau or Power BI for interactive dashboards.
+
+Try predictive modeling for attrition risk using scikit-learn.
+
+License
+This project is for educational and non-commercial use.
+Dataset © IBM, distributed via Kaggle.
+
+Acknowledgments
+IBM HR Analytics Employee Attrition & Performance Dataset
+
+Python, pandas, matplotlib, seaborn, and SQLite communities
